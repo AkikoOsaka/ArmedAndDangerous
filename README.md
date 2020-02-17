@@ -1,4 +1,4 @@
-# Prima
+# Armed and Dangerous
 Repository for the module "Prototyping interactive media-applications and games" at Furtwangen University
 
 [Abgabe](https://akikoosaka.github.io/ArmedAndDangerous/game/)
