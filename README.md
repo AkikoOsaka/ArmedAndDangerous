@@ -20,8 +20,9 @@ Repository for the module "Prototyping interactive media-applications and games"
 |  6 | GUI                   | Im Hauptmenü kann der Spieler den Schwierigkeitsgrad festlegen.                                                                                  |
 |  7 | Externe Daten         | Die gesamte Spiellogik, und damit auch alle notwendigen Parameter befinden sich in externen java/typescript dateien.                                                                                    |
 |  8 | Verhaltensklassen     | Das Verhalten von Objekten ist in den Methoden von Klassen definiert, die in externen Dateien abgelegt sind. Welche Klassen sind dies und welches Verhalten wird dort beschrieben?                                                                                             |
-|  9 | Subklassen            | Die Mehrzahl der im Spiel erscheinenden Entitäten erben von ƒ.Node, darüber hinaus erben alle Charaktere (Gegner, Spielfigur) von der Klasse Character|
+|  9 | Subklassen            | Die Mehrzahl der im Spiel erscheinenden Entitäten erben von ƒ.Node, darüber hinaus erben alle Charaktere (Gegner, Spielfigur) von der Klasse Character
+|
 
-| 10 | Maße & Positionen     | Das Level besteht aus 1x1 FudgeUnit Blöcken. Alle Charactere sind wesentlich kleiner als das (etwa 1/3 Fudge Unit). Das Level soll verhältnismässig viel Platz bieten, damit der Spieler sich frei bewegen kann. Das Spiel basiert stark auf Mobilität, weshalb der große Spielraum gewünscht ist.                                                               |
+| 10 | Maße & Positionen     | Das Level besteht aus 1x1 FudgeUnit Blöcken. Alle Charactere sind wesentlich kleiner als das (etwa 1/3 Fudge Unit). Das Level soll verhältnismässig viel Platz bieten, damit der Spieler sich frei bewegen kann. Das Spiel basiert stark auf Mobilität, weshalb der große Spielraum gewünscht ist.                                                            |
 | 11 | Event-System          | Animationen und das Wechseln der Spielzustände passiert über Events.                                                                                                                                                                                  |
 
