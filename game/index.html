@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset='utf-8'>
+  <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+  <title>Page Title</title>
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+  <!-- <link rel='stylesheet' type='text/css' media='screen' href='main.css'> -->
+  <script src="../../Fudge/FudgeCore.js"></script>
+  <script src="SpriteGenerator.js"></script>
+  <script src="Character.js"></script>
+  <script src="AnimatedSprite.js"></script>
+  <script src="Hud.js"></script>
+  <script src="Item.js"></script>
+  <script src="Guns.js"></script>
+  <script src="Gumi.js"></script>
+  <script src="Enemy.js"></script>
+  <script src='Level.js'></script>
+  <script src='main.js'></script>
+</head>
+<style>
+  body canvas {
+    background-color: beige;
+    z-index: 0;
+  }
+  .MenuContainer {
+    z-index: 99;
+    position: absolute;
+    display: inline;
+  }
+  div {
+    margin: 0.5em;
+  }
+  .ImageContainer {
+    display: none;
+  }
+</style>
+</head>
+
+<body>
+  <h1>ARMED AND DANGEROUS</h1>
+  <audio src="cyberpunk.mp3"></audio>
+  <canvas width="800" height="600" style="background-color: rgb(255, 255, 255);"></canvas>
+  <div class="MenuContainer"></div>
+  <div class="ImageContainer">
+    <img id="Gumi" src="Gumi_SpriteSheet.png" />
+    <img id="Slime" src="slime_SpriteSheet.png" />
+    <img id="Eyebot" src="eyebot_SpriteSheet.png" />
+    <img id="Bullet" src="bullet.png" />
+    <img id="Shell" src="ammo.png" />
+    <img id="Heart" src="heart.png" />
+    <img id="Fudge" src="fudgeTestTexture.png" />
+    <img id="LargeFudge" src="largeFudge.png" />
+    <img id="Background" src="bkNotGreen.png" />
+    <img id="Tileset" src="CaveStoryTiles.png" />
+    <img id="Exit" src="exit.png"/>
+  </div>
+
+</body>
+
+</html>
